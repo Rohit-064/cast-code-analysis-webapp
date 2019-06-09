@@ -124,7 +124,7 @@ USE_TZ = True
 
 CORS_ORIGIN_WHITELIST = [
     'http://localhost:3000',
-    'https://cast-code-analyser-webapp.herokuapp.com' 
+    'cast-code-analyser-webapp.herokuapp.com' 
 ]
 
 WEBPACK_LOADER = {
