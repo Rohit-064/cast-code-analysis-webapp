@@ -124,7 +124,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
 CORS_ORIGIN_WHITELIST = (
-    ['http://localhost:3000', 'https://cast-code-analyser-webapp.herokuapp.com/']
+    ['http://localhost:3000', 'https://cast-code-analyser-webapp.herokuapp.com']
 )
 
 WEBPACK_LOADER = {
