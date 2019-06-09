@@ -59,7 +59,6 @@ class code_analyser(View):
 		try:
 			#temp fix
 			codestype = request.POST.get('codestype')
-
 			if codestype == 'Python' and request.POST.get('codedata'):
 				self.store_file()
 				input_file = self.file_dir.get("python")				
