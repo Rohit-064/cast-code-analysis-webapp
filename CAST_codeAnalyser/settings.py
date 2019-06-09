@@ -25,7 +25,7 @@ SECRET_KEY = '56vq)pk7@$xcxvzocfj0=-)__^v$%49x#n^418&o_!4le)w&23'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['cast-code-analyser-webapp.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'cast-code-analyser-webapp.herokuapp.com']
 
 
 # Application definition
@@ -123,6 +123,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
 CORS_ORIGIN_WHITELIST = (
+    'http://localhost:3000',
     'https://cast-code-analyser-webapp.herokuapp.com',
     'https://cast-code-analyser-tool-webapp.herokuapp.com'
 )

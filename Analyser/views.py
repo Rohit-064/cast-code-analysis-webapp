@@ -90,6 +90,8 @@ class code_analyser(View):
 				self.context_dict['head']['description'] = self.desc
 
 		except:
+			self.context_dict['body']['errors'] = self.errors
+			self.context_dict['body']['remarks'] = self.remarks
 			self.context_dict['head']['status'] = 1
 			self.context_dict['head']['description'] = "Error. Please check the input and try again"
 
