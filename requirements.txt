@@ -3,7 +3,7 @@ backports.functools-lru-cache==1.5
 backports.shutil-get-terminal-size==1.0.0
 configparser==3.7.4
 decorator==4.4.0
-Django==1.11.21
+Django==2.2.24
 django-cors-headers==3.0.2
 django-webpack-loader==0.6.0
 djangorestframework==3.9.4
